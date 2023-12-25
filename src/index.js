@@ -1,7 +1,7 @@
 const axios = require('axios');
 
 const endpointUrl = 'https://cors-anywhere-nd3f.onrender.com'; // Replace this with the URL you want to send requests to
-const requestInterval = 5000; // Interval in milliseconds (e.g., 5000ms = 5 seconds)
+const requestInterval = 60000; // Interval in milliseconds (e.g., 5000ms = 5 seconds)
 
 function sendRequest() {
   axios.get(endpointUrl)
